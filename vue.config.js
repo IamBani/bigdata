@@ -4,6 +4,8 @@ module.exports = {
       sass: {
         prependData: `
           @import "~@/assets/scss/variables.scss";
+          @import "~@/assets/scss/mixin.scss";
+          @import "~@/assets/scss/color.scss";
         `
       }
     }
